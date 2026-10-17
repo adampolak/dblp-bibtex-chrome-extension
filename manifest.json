@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "dblp BibTeX cleaner",
+  "description": "Cleans up BibTeX from the current dblp BibTeX page.",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "action": {
+    "default_title": "Clean up dblp BibTeX",
+    "default_popup": "popup.html"
+  }
+}
